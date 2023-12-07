@@ -69,7 +69,3 @@ version_info = version.split(",")
 for version_info_part in version_info:
     print(f"version part: {version_info_part.strip()}")
 
-show_interfaces_stats = """
-
-"""
-

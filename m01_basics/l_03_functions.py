@@ -24,7 +24,7 @@ def create_devices(num_devices=1, num_subnets=1):
 
             if device["vendor"] == "junper":
                 device["os"] = "jnuos"
-                device["versiion"] = choice(["12.3R12-S15", "15.1R7-S6", "18.4R2-S3", "15.1X53-D591"])
+                device["version"] = choice(["12.3R12-S15", "15.1R7-S6", "18.4R2-S3", "15.1X53-D591"])
 
             elif device["vendor"] == "arsta":
                 device["os"] = "eos"
